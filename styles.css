@@ -30,3 +30,13 @@ body {
   text-align: center;
   text-decoration: none;
 }
+
+#EmailSignUp {
+    display: flex;
+    ;
+    text-align: center;
+}
+
+#email {
+    display: block;
+}
