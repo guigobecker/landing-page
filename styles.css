@@ -2,7 +2,13 @@ body {
   font-family: sans-serif;
 }
 
-ul {
+#header-img {
+  width: 300px;
+  height: auto;
+  padding: 14px 16px;
+}
+
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,22 +16,17 @@ ul {
   background-color: white;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  right: 32px;
+  width: 50%;
 }
 
-li {
+.nav-bar li {
   float: right;
+  padding: 28px 32px;   
 }
 
-li a {
-  display: block;
+.nav-bar li a  {
   color: black;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover {
-    background-color: gray;
 }
