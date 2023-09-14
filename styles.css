@@ -1,17 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
 }
 
 #header-img {
-  width: 300px;
+  width: 400px;
   height: auto;
-  padding: 14px 16px;
+  padding: 15px;
 }
 
 .nav-bar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: white;
   position: fixed;
