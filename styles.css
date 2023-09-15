@@ -8,39 +8,47 @@ body {
   font-family: sans-serif;
 }
 
-#header-img {
-  width: 400px;
-  height: auto;
-  padding: 15px;
-}
-
-.nav-bar ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: white;
+header {
   position: fixed;
   top: 0;
-  right: 32px;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 0 30px;
 }
 
-.nav-bar li {
-  float: right;
-  padding: 28px 32px;   
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-bar li a  {
+#header-img {
+  width: 20vw;
+  height: auto;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#nav-bar li {
+  padding: 28px 50px;
+}
+
+#nav-bar li a {
   color: black;
   text-align: center;
   text-decoration: none;
 }
 
 #EmailSignUp {
-    display: flex;
-    ;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 #email {
-    display: block;
+  display: block;
 }
