@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: #eee;
 }
 
 header {
@@ -14,7 +15,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #eee;
   padding: 0 30px;
 }
 
@@ -44,11 +44,32 @@ header {
   text-decoration: none;
 }
 
+h2 {
+  margin-bottom: 5px;
+}
+
 #EmailSignUp {
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   text-align: center;
+  margin-top: 90px;
 }
 
 #email {
   display: block;
+  width: 300px;
+  height: 30px;
+  margin: 15px;
+  border: 2px solid black;
+}
+
+.button {
+  background-color: #f1c40f;
+  border: 0;
+  font-weight: 900;
+  font-size: 1em;
+  padding: 10px;
+  cursor: pointer;
 }
